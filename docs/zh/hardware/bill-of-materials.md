@@ -1,6 +1,44 @@
-# 物料清单 (BOM)
+# 物料清单待补充齐全 (BOM)
 
 本文详细列出了制作VerdiBot所需的所有元器件和材料，分为树莓派5版本和树莓派Zero 2W版本两套方案。
+
+
+
+### 树莓派拓展板子主要元件
+![拓展板子](/zh/power-screen.jpg)
+|                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
+| :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
+| [2.4寸裸屏](https://item.taobao.com/item.htm?_u=sqc0n0pd4b2&id=720463714941&skuId=5192111043023&spm=a1z09.2.0.0.7bf22e8diGxZvd) |     |            2.4寸裸屏            |  1   |     主屏幕     |
+
+### 语音板子主要元件
+![语音板子](/zh/voice.jpg)
+|                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
+| :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
+| [PCM2912A](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.63072e8dmzSkSt&id=579685665991&_u=82089jq9r8603e) |  U6   |     TQFP-32_L7.0-W7.0-P0.80-LS9.0-TL     |  1   |          |
+
+
+### 舵机板子主要芯片
+![舵机板子](/zh/servo.jpg)
+|                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
+| :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
+| [TL431IDBZT](https://item.taobao.com/item.htm?_u=b20q7cgbc675&id=554339815306&spm=a1z09.2.0.0.67002e8dJ6XlJx) |  U15  |                sot23-3_3                 |  6   |          |
+| [XC6210](https://item.taobao.com/item.htm?_u=s20q7cgb15f7&id=559236610497&spm=a1z09.2.0.0.29ee2e8dahZw7u) |  U16  |                 SOT23-5                  |  6   |      XC6210    |
+| [STM32F030F6/STM32F042F6](https://item.taobao.com/item.htm?id=689126031516) |  U17  |                 tssop-20                 |  6   |          |
+| [FM116B](https://item.taobao.com/item.htm?abbucket=3&id=694332585536&ns=1&priceTId=2147805817169557668101764e7cd8&spm=a21n57.1.item.55.4778523c2BmLel&skuId=4926989292643) |  U18  |                 SOT23-6                  |  6   |          |
+| [HC-0.8-5PWT](https://item.taobao.com/item.htm?id=740301107825&spm=a1z10.3-c-s.w4002-25177821117.10.1d3d3a84WevkRX) |  U19  |    CONN-SMD_5P-P0.80_HCTL_HC-0.8-5PWT    |  6   |          |
+| [HC-0.8-4PWT](https://item.taobao.com/item.htm?id=740301107825&spm=a1z10.3-c-s.w4002-25177821117.10.1d3d3a84WevkRX) |  U20  |    CONN-SMD_4P-P0.80_HCTL_HC-0.8-4PWT    |  6   |          |
+
+
+## 非阻容配件表
+|                           元件型号                           | 位号  |                   封装                   | 数量 |   备注   |
+| :----------------------------------------------------------: | :---: | :--------------------------------------: | :--: | :------: |
+| [4.3g舵机](https://item.taobao.com/item.htm?id=561100959951&skuId=4466243603017&spm=a1z10.3-c-s.w4002-24032463620.36.e1285bdfEDd3Ve) |  无   |                    无                    |  2   |          |
+| [9g舵机](https://item.taobao.com/item.htm?id=560963513964&spm=a1z10.3-c-s.w4002-24032463620.16.28145bdfkyicVu&skuId=4621283837889) |  无   |                    无                    |  3  |          |       |
+| [胳膊轴承](https://item.taobao.com/item.htm?_u=b20q7cgbb95a&id=626925470285&spm=a1z09.2.0.0.1f3c2e8df9Af9i&skuId=4923213784441) |  无   |         胳膊轴承25x32x4mm        | 2 |          |
+| [脖子轴承](https://item.taobao.com/item.htm?_u=b20q7cgbb95a&id=626925470285&spm=a1z09.2.0.0.1f3c2e8df9Af9i&skuId=4923213784441) |  无   |         胳膊轴承30x37x4mm        | 1 |          |
+| [0.8cm的4pin刺破端子线材](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.231e2e8dls1tgi&id=651242539508&_u=aqc0n0p2a6e) |  无   |                  10cm 4pin反向 一个摄像头 一个舵机驱动板连接              | 2 |          |
+| [0.8cm的5pin刺破端子线材](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.231e2e8dls1tgi&id=651242539508&_u=aqc0n0p2a6e) |  无   |                  10cm 5pin单头镀锡 5根  20cm单头镀锡1根             | 5 |          |
+| [树莓派5专用ups](https://item.taobao.com/item.htm?_u=sqc0n0p9744&id=653640026100&skuId=5258425866017&spm=a1z09.2.0.0.7bf22e8diGxZvd) |  无   |                  树莓派5专用ups为树莓派5版本专门使用            | 1 |          |
 
 ## 树莓派5版本 BOM
 

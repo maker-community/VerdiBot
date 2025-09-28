@@ -62,6 +62,7 @@ VerdiBot（阿荫）是一个基于树莓派制作的圆嘟嘟桌面机器人，
 - **QQ复刻群**：816250966
 - **B站视频**：[绿荫阿广的B站主页](https://space.bilibili.com/25228512)
 - **GitHub项目**：[VerdiBot开源项目](https://github.com/maker-community/VerdiBot)
+- **绿荫助手（兼容小智接口的.NET客户端）**：[Verdure Assistant开源项目](https://github.com/maker-community/Verdure.Assistant)
 - **硬件设计**：[立创开源社区](https://oshwhub.com/greenshade/verdibot)
 
 ### 开始你的复刻之旅
