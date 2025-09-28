@@ -423,3 +423,4 @@ docs/.vitepress/cache/
 docs/.vitepress/dist/
 docs-dist/
 package-lock.json
+!docs/package-lock.json
