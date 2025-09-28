@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# Documentation build
+docs/node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs-dist/
+package-lock.json
